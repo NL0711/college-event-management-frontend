@@ -1,1 +1,1 @@
-# college-event-management
+# college-event-ma  nagement
