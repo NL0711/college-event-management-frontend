@@ -9,7 +9,7 @@ const EventCards = ({title, start_date, end_date, location, time_start, time_end
 
   return (
     <div>
-      <Card className="relative flex flex-col items-center min-h-[22rem] max-h-[24rem]
+      <Card className="relative flex flex-col items-center h-[24rem]
        shadow-md shadow-zinc-200 border-0 rounded-t-2xl">
         <CardHeader className="p-0 border-0">
           <img className="aspect-video rounded-t-2xl cursor-pointer" src={src} />

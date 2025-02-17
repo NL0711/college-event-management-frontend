@@ -8,7 +8,6 @@ const Events = () => {
     fetch('http://localhost:5000/events')
      .then(response => response.json())
      .then(data => setEvents(data))
-     .catch(error => console.error('Error:', error));
   }, [])
 
   return (
